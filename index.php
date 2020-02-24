@@ -9,8 +9,15 @@ $unifi->login();
 
 // If the form was submitted...
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Was a site sent?
-    if(isset($_POST['site'])) {
+    // Was a site and a pin sent?
+    if(isset($_POST['site']) && isset($_POST['pin'])) {
+        // Check that the pin is valid
+        $pin = (integer) $_POST['pin'];
+        if($pin !== PIN) {
+            echo '<h1 style="color: red";>INVALID PIN!</h1>';
+            die;
+        }
+        
         // Set the site
         $unifi->set_site($_POST['site']);
 
@@ -81,7 +88,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <label class="switch">
                     <input name="toggle" type="checkbox">
                     <span class="slider round"></span>
-                </label>
+                </label><br><br>
+                
+                <!-- PIN -->
+                <label for="pin">Enter PIN</lable><br>
+                <input name="pin" type="password" pattern="[0-9]*" minlength="4" maxlength="4" inputmode="numeric" required>
 
                 <!-- SUBMIT BUTTON -->
                 <br><br><input type="submit" value="GO!">
