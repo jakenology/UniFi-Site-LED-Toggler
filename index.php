@@ -24,8 +24,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Was the toggle selected? 
         if(isset($_POST['toggle'])) {
             $unifi->site_leds(true);
+            echo '<h1 style="color: red;">LEDs ON!</h1>';
         } else {
             $unifi->site_leds(false);
+            echo '<h1 style="color: red;">LEDs OFF!</h1>';
         }
     }
 }
@@ -34,6 +36,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html lang="EN">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Site LED Toggler</title>
         <!-- Custom Google Font -->
         <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
@@ -66,7 +69,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             <h1 id="header">Site LED Toggler</h1>
         </div>
         <div id="content">
-            <p>Please fill out the following information to instantaneously disable that annoying blue LED!</p>
+            <p>Please fill out the following information to instantaneously disable those annoying blue LEDs on all APs!</p>
             <form action="" method="post">
                 <!-- Site selector -->
                 <label for="site">Site Name</label><br>
