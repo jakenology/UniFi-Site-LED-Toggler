@@ -1,0 +1,2796 @@
+Array
+(
+    [0] => stdClass Object
+        (
+            [_id] => 5d99765fdb6064207aab426f
+            [ip] => 192.168.1.2
+            [mac] => 18:e8:29:4e:bc:0c
+            [model] => US8P60
+            [type] => usw
+            [version] => 4.0.80.10875
+            [adopted] => 1
+            [site_id] => 5d8121c5db606404849237da
+            [x_authkey] => 7f560ca4be2742440142de1de5f3dfa8
+            [cfgversion] => e3ca8f24cd6ca3a8
+            [config_network] => stdClass Object
+                (
+                    [type] => dhcp
+                    [ip] => 192.168.1.2
+                )
+
+            [jumboframe_enabled] => 
+            [flowctrl_enabled] => 
+            [stp_version] => rstp
+            [stp_priority] => 32768
+            [dot1x_portctrl_enabled] => 
+            [power_source_ctrl_enabled] => 
+            [license_state] => registered
+            [x_aes_gcm] => 1
+            [x_fingerprint] => 72:62:1d:4c:ad:7f:b5:dd:06:30:fd:cb:ba:9b:23:a5
+            [inform_url] => http://unifi.bluejayit.com:8080/inform
+            [inform_ip] => 52.14.137.40
+            [required_version] => 3.7.16
+            [board_rev] => 8
+            [ethernet_table] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [mac] => 18:e8:29:4e:bc:0c
+                            [num_port] => 8
+                            [name] => eth0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [mac] => 18:e8:29:4e:bc:0d
+                            [name] => srv0
+                        )
+
+                )
+
+            [port_table] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [port_idx] => 1
+                            [media] => GE
+                            [port_poe] => 
+                            [poe_caps] => 0
+                            [speed_caps] => 1048623
+                            [op_mode] => switch
+                            [portconf_id] => 5d8121c5db606404849237e7
+                            [autoneg] => 1
+                            [dot1x_mode] => unknown
+                            [dot1x_status] => disabled
+                            [enable] => 1
+                            [flowctrl_rx] => 
+                            [flowctrl_tx] => 
+                            [full_duplex] => 1
+                            [is_uplink] => 1
+                            [jumbo] => 
+                            [lldp_table] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [lldp_chassis_id] => B4:FB:E4:8A:C3:7E
+                                            [lldp_port_id] => eth1
+                                            [lldp_system_name] => USG
+                                        )
+
+                                )
+
+                            [rx_broadcast] => 52736
+                            [rx_bytes] => 844300375298
+                            [rx_dropped] => 0
+                            [rx_errors] => 0
+                            [rx_multicast] => 2121320
+                            [rx_packets] => 639554529
+                            [satisfaction] => 100
+                            [speed] => 1000
+                            [stp_pathcost] => 20000
+                            [stp_state] => forwarding
+                            [tx_broadcast] => 9319286
+                            [tx_bytes] => 61221891684
+                            [tx_dropped] => 0
+                            [tx_errors] => 0
+                            [tx_multicast] => 2451306
+                            [tx_packets] => 264339892
+                            [up] => 1
+                            [tx_bytes-r] => 15621
+                            [rx_bytes-r] => 1949897
+                            [bytes-r] => 1965519
+                            [name] => Port 1
+                            [masked] => 
+                            [aggregated_by] => 
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [port_idx] => 2
+                            [media] => GE
+                            [port_poe] => 
+                            [poe_caps] => 0
+                            [speed_caps] => 1048623
+                            [op_mode] => switch
+                            [portconf_id] => 5d8121c5db606404849237e7
+                            [autoneg] => 1
+                            [dot1x_mode] => unknown
+                            [dot1x_status] => disabled
+                            [enable] => 1
+                            [flowctrl_rx] => 
+                            [flowctrl_tx] => 
+                            [full_duplex] => 1
+                            [is_uplink] => 
+                            [jumbo] => 
+                            [lldp_table] => Array
+                                (
+                                )
+
+                            [rx_broadcast] => 32
+                            [rx_bytes] => 209115500
+                            [rx_dropped] => 0
+                            [rx_errors] => 0
+                            [rx_multicast] => 26
+                            [rx_packets] => 1627320
+                            [satisfaction] => 100
+                            [speed] => 1000
+                            [stp_pathcost] => 20000
+                            [stp_state] => forwarding
+                            [tx_broadcast] => 9371999
+                            [tx_bytes] => 2649846146
+                            [tx_dropped] => 0
+                            [tx_errors] => 0
+                            [tx_multicast] => 4470897
+                            [tx_packets] => 15511955
+                            [up] => 1
+                            [tx_bytes-r] => 1712
+                            [rx_bytes-r] => 50
+                            [bytes-r] => 1762
+                            [name] => Port 2
+                            [masked] => 
+                            [aggregated_by] => 
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [port_idx] => 3
+                            [media] => GE
+                            [port_poe] => 
+                            [poe_caps] => 0
+                            [speed_caps] => 1048623
+                            [op_mode] => switch
+                            [portconf_id] => 5d8121c5db606404849237e7
+                            [autoneg] => 1
+                            [dot1x_mode] => unknown
+                            [dot1x_status] => disabled
+                            [enable] => 1
+                            [flowctrl_rx] => 
+                            [flowctrl_tx] => 
+                            [full_duplex] => 
+                            [is_uplink] => 
+                            [jumbo] => 
+                            [lldp_table] => Array
+                                (
+                                )
+
+                            [rx_broadcast] => 583
+                            [rx_bytes] => 428788439
+                            [rx_dropped] => 0
+                            [rx_errors] => 0
+                            [rx_multicast] => 877
+                            [rx_packets] => 2623284
+                            [satisfaction] => 90
+                            [speed] => 0
+                            [stp_pathcost] => 0
+                            [stp_state] => disabled
+                            [tx_broadcast] => 322646
+                            [tx_bytes] => 6830138455
+                            [tx_dropped] => 2155
+                            [tx_errors] => 0
+                            [tx_multicast] => 285988
+                            [tx_packets] => 5689630
+                            [up] => 
+                            [tx_bytes-r] => 0
+                            [rx_bytes-r] => 0
+                            [bytes-r] => 0
+                            [name] => DD-WRT AP/LAN TRUNK
+                            [port_security_mac_address] => Array
+                                (
+                                )
+
+                            [masked] => 
+                            [aggregated_by] => 
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [port_idx] => 4
+                            [media] => GE
+                            [port_poe] => 
+                            [poe_caps] => 0
+                            [speed_caps] => 1048623
+                            [op_mode] => switch
+                            [portconf_id] => 5da4b64cdb60643e97dbf4c8
+                            [autoneg] => 1
+                            [dot1x_mode] => unknown
+                            [dot1x_status] => disabled
+                            [enable] => 1
+                            [flowctrl_rx] => 
+                            [flowctrl_tx] => 
+                            [full_duplex] => 
+                            [is_uplink] => 
+                            [jumbo] => 
+                            [lldp_table] => Array
+                                (
+                                )
+
+                            [rx_broadcast] => 0
+                            [rx_bytes] => 0
+                            [rx_dropped] => 0
+                            [rx_errors] => 0
+                            [rx_multicast] => 0
+                            [rx_packets] => 0
+                            [satisfaction] => 100
+                            [speed] => 0
+                            [stp_pathcost] => 0
+                            [stp_state] => disabled
+                            [tx_broadcast] => 0
+                            [tx_bytes] => 0
+                            [tx_dropped] => 0
+                            [tx_errors] => 0
+                            [tx_multicast] => 0
+                            [tx_packets] => 0
+                            [up] => 
+                            [tx_bytes-r] => 0
+                            [rx_bytes-r] => 0
+                            [bytes-r] => 0
+                            [name] => Port 4
+                            [masked] => 
+                            [aggregated_by] => 
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [port_idx] => 5
+                            [media] => GE
+                            [port_poe] => 1
+                            [poe_caps] => 1
+                            [speed_caps] => 1048623
+                            [op_mode] => switch
+                            [portconf_id] => 5d8121c5db606404849237e7
+                            [poe_mode] => auto
+                            [autoneg] => 1
+                            [dot1x_mode] => unknown
+                            [dot1x_status] => disabled
+                            [enable] => 1
+                            [flowctrl_rx] => 
+                            [flowctrl_tx] => 
+                            [full_duplex] => 1
+                            [is_uplink] => 
+                            [jumbo] => 
+                            [lldp_table] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [lldp_chassis_id] => B4:FB:E4:F3:7F:69
+                                            [lldp_port_id] => B4:FB:E4:F3:7F:69
+                                            [lldp_system_name] => AP-01
+                                        )
+
+                                )
+
+                            [poe_class] => Class 4
+                            [poe_current] => 67.50
+                            [poe_enable] => 1
+                            [poe_good] => 1
+                            [poe_power] => 3.23
+                            [poe_voltage] => 47.81
+                            [rx_broadcast] => 9246797
+                            [rx_bytes] => 60076559562
+                            [rx_dropped] => 0
+                            [rx_errors] => 2
+                            [rx_multicast] => 930775
+                            [rx_packets] => 257455409
+                            [satisfaction] => 85
+                            [speed] => 1000
+                            [stp_pathcost] => 20000
+                            [stp_state] => forwarding
+                            [tx_broadcast] => 124674
+                            [tx_bytes] => 837400393084
+                            [tx_dropped] => 0
+                            [tx_errors] => 0
+                            [tx_multicast] => 3641444
+                            [tx_packets] => 633540331
+                            [up] => 1
+                            [tx_bytes-r] => 1949857
+                            [rx_bytes-r] => 15467
+                            [bytes-r] => 1965324
+                            [name] => Port 5
+                            [masked] => 
+                            [aggregated_by] => 
+                        )
+
+                    [5] => stdClass Object
+                        (
+                            [port_idx] => 6
+                            [media] => GE
+                            [port_poe] => 1
+                            [poe_caps] => 1
+                            [speed_caps] => 1048623
+                            [op_mode] => switch
+                            [portconf_id] => 5d8121c5db606404849237e7
+                            [poe_mode] => auto
+                            [autoneg] => 1
+                            [dot1x_mode] => unknown
+                            [dot1x_status] => disabled
+                            [enable] => 1
+                            [flowctrl_rx] => 
+                            [flowctrl_tx] => 
+                            [full_duplex] => 
+                            [is_uplink] => 
+                            [jumbo] => 
+                            [lldp_table] => Array
+                                (
+                                )
+
+                            [poe_class] => Unknown
+                            [poe_current] => 0.00
+                            [poe_enable] => 
+                            [poe_good] => 
+                            [poe_power] => 0.00
+                            [poe_voltage] => 0.00
+                            [rx_broadcast] => 0
+                            [rx_bytes] => 0
+                            [rx_dropped] => 0
+                            [rx_errors] => 0
+                            [rx_multicast] => 0
+                            [rx_packets] => 0
+                            [satisfaction] => 100
+                            [speed] => 0
+                            [stp_pathcost] => 0
+                            [stp_state] => disabled
+                            [tx_broadcast] => 0
+                            [tx_bytes] => 0
+                            [tx_dropped] => 0
+                            [tx_errors] => 0
+                            [tx_multicast] => 0
+                            [tx_packets] => 0
+                            [up] => 
+                            [tx_bytes-r] => 0
+                            [rx_bytes-r] => 0
+                            [bytes-r] => 0
+                            [name] => Port 6
+                            [masked] => 
+                            [aggregated_by] => 
+                        )
+
+                    [6] => stdClass Object
+                        (
+                            [port_idx] => 7
+                            [media] => GE
+                            [port_poe] => 1
+                            [poe_caps] => 1
+                            [speed_caps] => 1048623
+                            [op_mode] => switch
+                            [portconf_id] => 5d8121c5db606404849237e7
+                            [poe_mode] => auto
+                            [autoneg] => 1
+                            [dot1x_mode] => unknown
+                            [dot1x_status] => disabled
+                            [enable] => 1
+                            [flowctrl_rx] => 
+                            [flowctrl_tx] => 
+                            [full_duplex] => 
+                            [is_uplink] => 
+                            [jumbo] => 
+                            [lldp_table] => Array
+                                (
+                                )
+
+                            [poe_class] => Unknown
+                            [poe_current] => 0.00
+                            [poe_enable] => 
+                            [poe_good] => 
+                            [poe_power] => 0.00
+                            [poe_voltage] => 0.00
+                            [rx_broadcast] => 0
+                            [rx_bytes] => 0
+                            [rx_dropped] => 0
+                            [rx_errors] => 0
+                            [rx_multicast] => 0
+                            [rx_packets] => 0
+                            [satisfaction] => 100
+                            [speed] => 0
+                            [stp_pathcost] => 0
+                            [stp_state] => disabled
+                            [tx_broadcast] => 0
+                            [tx_bytes] => 0
+                            [tx_dropped] => 0
+                            [tx_errors] => 0
+                            [tx_multicast] => 0
+                            [tx_packets] => 0
+                            [up] => 
+                            [tx_bytes-r] => 0
+                            [rx_bytes-r] => 0
+                            [bytes-r] => 0
+                            [name] => Port 7
+                            [masked] => 
+                            [aggregated_by] => 
+                        )
+
+                    [7] => stdClass Object
+                        (
+                            [port_idx] => 8
+                            [media] => GE
+                            [port_poe] => 1
+                            [poe_caps] => 1
+                            [speed_caps] => 1048623
+                            [op_mode] => switch
+                            [portconf_id] => 5d8121c5db606404849237e7
+                            [poe_mode] => auto
+                            [autoneg] => 1
+                            [dot1x_mode] => unknown
+                            [dot1x_status] => disabled
+                            [enable] => 1
+                            [flowctrl_rx] => 
+                            [flowctrl_tx] => 
+                            [full_duplex] => 
+                            [is_uplink] => 
+                            [jumbo] => 
+                            [lldp_table] => Array
+                                (
+                                )
+
+                            [poe_class] => Unknown
+                            [poe_current] => 0.00
+                            [poe_enable] => 
+                            [poe_good] => 
+                            [poe_power] => 0.00
+                            [poe_voltage] => 0.00
+                            [rx_broadcast] => 0
+                            [rx_bytes] => 0
+                            [rx_dropped] => 0
+                            [rx_errors] => 0
+                            [rx_multicast] => 0
+                            [rx_packets] => 0
+                            [satisfaction] => 100
+                            [speed] => 0
+                            [stp_pathcost] => 0
+                            [stp_state] => disabled
+                            [tx_broadcast] => 0
+                            [tx_bytes] => 0
+                            [tx_dropped] => 0
+                            [tx_errors] => 0
+                            [tx_multicast] => 0
+                            [tx_packets] => 0
+                            [up] => 
+                            [tx_bytes-r] => 0
+                            [rx_bytes-r] => 0
+                            [bytes-r] => 0
+                            [name] => Port 8
+                            [masked] => 
+                            [aggregated_by] => 
+                        )
+
+                )
+
+            [switch_caps] => stdClass Object
+                (
+                    [feature_caps] => 1022
+                    [max_mirror_sessions] => 1
+                    [max_aggregate_sessions] => 4
+                )
+
+            [has_fan] => 
+            [has_temperature] => 
+            [hw_caps] => 0
+            [fw_caps] => 21683749
+            [satisfaction] => 97
+            [sys_error_caps] => 0
+            [led_override] => default
+            [led_override_color] => #0000ff
+            [led_override_color_brightness] => 100
+            [outdoor_mode_override] => default
+            [lcm_brightness_override] => 
+            [lcm_idle_timeout_override] => 
+            [name] => Core Switch
+            [unsupported] => 
+            [unsupported_reason] => 0
+            [two_phase_adopt] => 
+            [serial] => 18E8294EBC0C
+            [port_overrides] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [name] => DD-WRT AP/LAN TRUNK
+                            [port_idx] => 3
+                            [portconf_id] => 5d8121c5db606404849237e7
+                            [port_security_mac_address] => Array
+                                (
+                                )
+
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [port_idx] => 4
+                            [portconf_id] => 5da4b64cdb60643e97dbf4c8
+                        )
+
+                )
+
+            [syslog_key] => a693ec11a9531b03ea09988bf92af844be9ecc49b6892cd5356e9279c8ca1233
+            [kernel_version] => 3.6.5
+            [architecture] => armv7l
+            [hash_id] => 388cc4a934b24e13
+            [manufacturer_id] => 4
+            [gateway_mac] => b4:fb:e4:8a:c3:7e
+            [device_id] => 5d99765fdb6064207aab426f
+            [state] => 1
+            [start_disconnected_millis] => 1582351524478
+            [x_inform_authkey] => 7f560ca4be2742440142de1de5f3dfa8
+            [last_seen] => 1582520751
+            [upgradable] => 
+            [adoptable_when_upgraded] => 
+            [rollupgrade] => 
+            [known_cfgversion] => e3ca8f24cd6ca3a8
+            [uptime] => 3041617
+            [_uptime] => 3041617
+            [locating] => 
+            [start_connected_millis] => 1582351533668
+            [prev_non_busy_state] => 5
+            [connect_request_ip] => 97.88.34.66
+            [connect_request_port] => 42098
+            [sys_stats] => stdClass Object
+                (
+                    [loadavg_1] => 1.62
+                    [loadavg_15] => 1.51
+                    [loadavg_5] => 1.55
+                    [mem_buffer] => 0
+                    [mem_total] => 262402048
+                    [mem_used] => 128876544
+                )
+
+            [system-stats] => stdClass Object
+                (
+                    [cpu] => 56.2
+                    [mem] => 29.5
+                    [uptime] => 3041582
+                )
+
+            [ssh_session_table] => Array
+                (
+                )
+
+            [overheating] => 
+            [total_max_power] => 50
+            [downlink_table] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [port_idx] => 5
+                            [speed] => 1000
+                            [full_duplex] => 1
+                            [mac] => b4:fb:e4:f3:7f:69
+                        )
+
+                )
+
+            [uplink] => stdClass Object
+                (
+                    [full_duplex] => 1
+                    [ip] => 192.168.1.2
+                    [mac] => 18:e8:29:4e:bc:0c
+                    [name] => eth0
+                    [netmask] => 255.255.252.0
+                    [num_port] => 8
+                    [rx_bytes] => 844300375298
+                    [rx_dropped] => 0
+                    [rx_errors] => 0
+                    [rx_multicast] => 0
+                    [rx_packets] => 639554529
+                    [speed] => 1000
+                    [tx_bytes] => 61221891684
+                    [tx_dropped] => 0
+                    [tx_errors] => 0
+                    [tx_packets] => 264339892
+                    [up] => 1
+                    [port_idx] => 1
+                    [media] => GE
+                    [max_speed] => 1000
+                    [uplink_mac] => b4:fb:e4:8a:c3:7d
+                    [type] => wire
+                    [tx_bytes-r] => 15621
+                    [rx_bytes-r] => 1949897
+                )
+
+            [last_uplink] => stdClass Object
+                (
+                    [uplink_mac] => b4:fb:e4:8a:c3:7d
+                )
+
+            [uplink_depth] => 1
+            [dhcp_server_table] => Array
+                (
+                )
+
+            [next_interval] => 39
+            [next_heartbeat_at] => 1582520800
+            [considered_lost_at] => 1582520898
+            [stat] => stdClass Object
+                (
+                    [sw] => stdClass Object
+                        (
+                            [site_id] => 5d8121c5db606404849237da
+                            [o] => sw
+                            [oid] => 18:e8:29:4e:bc:0c
+                            [sw] => 18:e8:29:4e:bc:0c
+                            [time] => 1582351500000
+                            [datetime] => 2020-02-22T06:05:00Z
+                            [rx_packets] => 65752514
+                            [rx_bytes] => 64209986425
+                            [rx_errors] => 0
+                            [rx_dropped] => 0
+                            [rx_crypts] => 0
+                            [rx_frags] => 0
+                            [tx_packets] => 66750570
+                            [tx_bytes] => 64380883403
+                            [tx_errors] => 0
+                            [tx_dropped] => 0
+                            [tx_retries] => 0
+                            [rx_multicast] => 215599
+                            [rx_broadcast] => 513404
+                            [tx_multicast] => 679173
+                            [tx_broadcast] => 1038665
+                            [bytes] => 128590869828
+                            [duration] => 169180000
+                            [port_1-rx_packets] => 45593712
+                            [port_1-rx_bytes] => 56487552677
+                            [port_1-tx_packets] => 20305848
+                            [port_1-tx_bytes] => 7750290666
+                            [port_1-rx_multicast] => 146665
+                            [port_1-tx_multicast] => 153459
+                            [port_1-tx_broadcast] => 513836
+                            [port_2-rx_packets] => 126960
+                            [port_2-rx_bytes] => 26052228
+                            [port_2-tx_packets] => 952401
+                            [port_2-tx_bytes] => 164850446
+                            [port_2-tx_multicast] => 294501
+                            [port_2-tx_broadcast] => 517354
+                            [port_5-rx_packets] => 20031842
+                            [port_5-rx_bytes] => 7696381520
+                            [port_5-tx_packets] => 45492321
+                            [port_5-tx_bytes] => 56465742291
+                            [port_5-rx_multicast] => 68934
+                            [port_5-rx_broadcast] => 509886
+                            [port_5-tx_multicast] => 231213
+                            [port_5-tx_broadcast] => 7475
+                            [port_1-rx_broadcast] => 3518
+                        )
+
+                )
+
+            [tx_bytes] => 844300375298
+            [rx_bytes] => 61221891684
+            [bytes] => 905522266982
+            [num_sta] => 1
+            [user-num_sta] => 1
+            [guest-num_sta] => 0
+            [x_has_ssh_hostkey] => 
+        )
+
+    [1] => stdClass Object
+        (
+            [_id] => 5dcc8f98db60644a3b5cab8d
+            [ip] => 97.88.34.66
+            [mac] => b4:fb:e4:8a:c3:7d
+            [model] => UGW3
+            [type] => ugw
+            [version] => 4.4.44.5213844
+            [adopted] => 1
+            [site_id] => 5d8121c5db606404849237da
+            [x_authkey] => 8a1aba6572eca0ad571d92dd0a84d14a
+            [cfgversion] => ad8d58715c23974d
+            [syslog_key] => 185c1ecc7bd6aab52c538e7e67d5c98dec9cdbe9483a6a42799bc8a8e7caed5b
+            [config_network] => stdClass Object
+                (
+                    [type] => dhcp
+                    [ip] => 97.88.34.66
+                )
+
+            [ethernet_overrides] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [ifname] => eth1
+                            [networkgroup] => LAN
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [ifname] => eth0
+                            [networkgroup] => WAN
+                        )
+
+                )
+
+            [license_state] => registered
+            [x_fingerprint] => 68:47:f1:48:1d:b8:ad:9c:95:b5:63:10:ac:0e:af:b8
+            [inform_url] => http://unifi.bluejayit.com:8080/inform
+            [inform_ip] => 52.14.137.40
+            [x_aes_gcm] => 1
+            [required_version] => 4.0.0
+            [board_rev] => 16
+            [ethernet_table] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [mac] => b4:fb:e4:8a:c3:7d
+                            [num_port] => 1
+                            [name] => eth0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [mac] => b4:fb:e4:8a:c3:7e
+                            [num_port] => 1
+                            [name] => eth1
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [mac] => b4:fb:e4:8a:c3:7f
+                            [num_port] => 1
+                            [name] => eth2
+                        )
+
+                )
+
+            [fw_caps] => 184323
+            [hw_caps] => 0
+            [usg_caps] => 786431
+            [port_overrides] => Array
+                (
+                )
+
+            [unsupported] => 
+            [unsupported_reason] => 0
+            [serial] => B4FBE48AC37D
+            [led_override] => default
+            [led_override_color] => #0000ff
+            [led_override_color_brightness] => 100
+            [outdoor_mode_override] => default
+            [lcm_brightness_override] => 
+            [lcm_idle_timeout_override] => 
+            [name] => USG
+            [two_phase_adopt] => 
+            [device_id] => 5dcc8f98db60644a3b5cab8d
+            [state] => 1
+            [start_disconnected_millis] => 1582351524481
+            [x_inform_authkey] => 8a1aba6572eca0ad571d92dd0a84d14a
+            [last_seen] => 1582520746
+            [upgradable] => 
+            [adoptable_when_upgraded] => 
+            [rollupgrade] => 
+            [known_cfgversion] => ad8d58715c23974d
+            [uptime] => 3041585
+            [_uptime] => 3041585
+            [locating] => 
+            [start_connected_millis] => 1582351528288
+            [connect_request_ip] => 97.88.34.66
+            [connect_request_port] => 51226
+            [sys_stats] => stdClass Object
+                (
+                    [loadavg_1] => 0.13
+                    [loadavg_15] => 0.14
+                    [loadavg_5] => 0.12
+                    [mem_buffer] => 63602688
+                    [mem_total] => 507412480
+                    [mem_used] => 354471936
+                )
+
+            [system-stats] => stdClass Object
+                (
+                    [cpu] => 5
+                    [mem] => 32
+                    [uptime] => 3041066
+                )
+
+            [guest_token] => 6173C50BAF6C780753703C57A8A385AF
+            [speedtest-status] => stdClass Object
+                (
+                    [latency] => 7
+                    [rundate] => 1582508122
+                    [runtime] => 44
+                    [status_download] => 2
+                    [status_ping] => 2
+                    [status_summary] => 2
+                    [status_upload] => 2
+                    [xput_download] => 178.36680603027
+                    [xput_upload] => 11.396103858948
+                )
+
+            [speedtest-status-saved] => 1
+            [wan1] => stdClass Object
+                (
+                    [tx_bytes-r] => 10472
+                    [rx_bytes-r] => 981828
+                    [bytes-r] => 992301
+                    [max_speed] => 1000
+                    [type] => wire
+                    [name] => wan
+                    [ifname] => eth0
+                    [ip] => 97.88.34.66
+                    [netmask] => 255.255.252.0
+                    [mac] => b4:fb:e4:8a:c3:7d
+                    [up] => 1
+                    [speed] => 1000
+                    [full_duplex] => 1
+                    [rx_bytes] => 872758600393
+                    [rx_dropped] => 4663
+                    [rx_errors] => 0
+                    [rx_packets] => 682014211
+                    [tx_bytes] => 61788239286
+                    [tx_dropped] => 0
+                    [tx_errors] => 0
+                    [tx_packets] => 267198207
+                    [rx_multicast] => 22895633
+                    [enable] => 1
+                    [dns] => Array
+                        (
+                            [0] => 127.0.0.1
+                        )
+
+                    [gateway] => 97.88.32.1
+                )
+
+            [port_table] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [name] => wan
+                            [ifname] => eth0
+                            [ip] => 97.88.34.66
+                            [netmask] => 255.255.252.0
+                            [mac] => b4:fb:e4:8a:c3:7d
+                            [up] => 1
+                            [speed] => 1000
+                            [full_duplex] => 1
+                            [rx_bytes] => 872758600393
+                            [rx_dropped] => 4663
+                            [rx_errors] => 0
+                            [rx_packets] => 682014211
+                            [tx_bytes] => 61788239286
+                            [tx_dropped] => 0
+                            [tx_errors] => 0
+                            [tx_packets] => 267198207
+                            [rx_multicast] => 22895633
+                            [enable] => 1
+                            [dns] => Array
+                                (
+                                    [0] => 127.0.0.1
+                                )
+
+                            [gateway] => 97.88.32.1
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [name] => lan
+                            [ifname] => eth1
+                            [ip] => 192.168.1.1
+                            [netmask] => 255.255.252.0
+                            [mac] => b4:fb:e4:8a:c3:7e
+                            [up] => 1
+                            [speed] => 1000
+                            [full_duplex] => 1
+                            [rx_bytes] => 61222216303
+                            [rx_dropped] => 35
+                            [rx_errors] => 0
+                            [rx_packets] => 264343513
+                            [tx_bytes] => 841734835867
+                            [tx_dropped] => 0
+                            [tx_errors] => 0
+                            [tx_packets] => 639575237
+                            [rx_multicast] => 2451228
+                            [enable] => 1
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [name] => lan2
+                            [ifname] => eth2
+                            [ip] => 0.0.0.0
+                            [netmask] => 0.0.0.0
+                            [mac] => b4:fb:e4:8a:c3:7f
+                            [up] => 
+                            [speed] => 0
+                            [full_duplex] => 
+                            [rx_bytes] => 0
+                            [rx_dropped] => 0
+                            [rx_errors] => 0
+                            [rx_packets] => 0
+                            [tx_bytes] => 0
+                            [tx_dropped] => 0
+                            [tx_errors] => 0
+                            [tx_packets] => 0
+                            [rx_multicast] => 0
+                            [enable] => 
+                        )
+
+                )
+
+            [network_table] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [_id] => 5d83f7f6db60640c36c1a288
+                            [purpose] => guest
+                            [networkgroup] => LAN
+                            [dhcpd_enabled] => 1
+                            [dhcpd_leasetime] => 86400
+                            [dhcpd_dns_enabled] => 
+                            [dhcpd_gateway_enabled] => 
+                            [dhcpd_time_offset_enabled] => 
+                            [ipv6_interface_type] => none
+                            [ipv6_pd_start] => ::2
+                            [ipv6_pd_stop] => ::7d1
+                            [name] => Guest
+                            [vlan] => 20
+                            [ip_subnet] => 192.168.20.1/24
+                            [dhcpd_start] => 192.168.20.6
+                            [dhcpd_stop] => 192.168.20.254
+                            [enabled] => 1
+                            [is_nat] => 1
+                            [dhcp_relay_enabled] => 
+                            [vlan_enabled] => 1
+                            [site_id] => 5d8121c5db606404849237da
+                            [dpi_enabled] => 
+                            [dpigroup_id] => 
+                            [mac] => b4:fb:e4:8a:c3:7e
+                            [is_guest] => 1
+                            [ip] => 192.168.20.1
+                            [up] => true
+                            [num_sta] => 0
+                            [rx_bytes] => 738584541
+                            [rx_packets] => 577198
+                            [tx_bytes] => 49205920
+                            [tx_packets] => 422282
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [_id] => 5d86e893db60640c36c5b3f9
+                            [purpose] => corporate
+                            [networkgroup] => LAN
+                            [dhcpd_enabled] => 1
+                            [dhcpd_leasetime] => 86400
+                            [dhcpd_dns_enabled] => 1
+                            [dhcpd_gateway_enabled] => 
+                            [dhcpd_time_offset_enabled] => 
+                            [ipv6_interface_type] => none
+                            [ipv6_pd_start] => ::2
+                            [ipv6_pd_stop] => ::7d1
+                            [name] => IoT
+                            [vlan] => 107
+                            [ip_subnet] => 192.168.107.1/24
+                            [dhcpd_start] => 192.168.107.6
+                            [dhcpd_stop] => 192.168.107.254
+                            [enabled] => 1
+                            [is_nat] => 1
+                            [dhcp_relay_enabled] => 
+                            [vlan_enabled] => 1
+                            [site_id] => 5d8121c5db606404849237da
+                            [dhcpd_dns_1] => 192.168.2.220
+                            [dhcpd_dns_2] => 
+                            [igmp_snooping] => 
+                            [upnp_lan_enabled] => 1
+                            [dhcpd_boot_enabled] => 
+                            [dhcpd_ntp_enabled] => 
+                            [domain_name] => 
+                            [mac] => b4:fb:e4:8a:c3:7e
+                            [is_guest] => 
+                            [ip] => 192.168.107.1
+                            [up] => true
+                            [num_sta] => 19
+                            [rx_bytes] => 51584627374
+                            [rx_packets] => 44602773
+                            [tx_bytes] => 4927621935
+                            [tx_packets] => 23237428
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [_id] => 5e38991adb606453d8e1c75b
+                            [purpose] => corporate
+                            [networkgroup] => LAN
+                            [dhcpd_enabled] => 1
+                            [dhcpd_leasetime] => 86400
+                            [dhcpd_dns_enabled] => 1
+                            [dhcpd_gateway_enabled] => 
+                            [dhcpd_time_offset_enabled] => 
+                            [ipv6_interface_type] => none
+                            [ipv6_pd_start] => ::2
+                            [ipv6_pd_stop] => ::7d1
+                            [name] => gaming/limited
+                            [vlan] => 99
+                            [ip_subnet] => 192.168.99.1/24
+                            [dhcpd_start] => 192.168.99.6
+                            [dhcpd_stop] => 192.168.99.254
+                            [dhcpd_dns_1] => 192.168.2.220
+                            [dhcpd_dns_2] => 
+                            [enabled] => 1
+                            [is_nat] => 1
+                            [dhcp_relay_enabled] => 
+                            [vlan_enabled] => 1
+                            [site_id] => 5d8121c5db606404849237da
+                            [mac] => b4:fb:e4:8a:c3:7e
+                            [is_guest] => 
+                            [ip] => 192.168.99.1
+                            [up] => true
+                            [num_sta] => 0
+                            [rx_bytes] => 0
+                            [rx_packets] => 0
+                            [tx_bytes] => 0
+                            [tx_packets] => 0
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [_id] => 5d83f75ddb60640c36c1a286
+                            [purpose] => corporate
+                            [networkgroup] => LAN
+                            [dhcpd_enabled] => 1
+                            [dhcpd_leasetime] => 86400
+                            [dhcpd_dns_enabled] => 1
+                            [dhcpd_gateway_enabled] => 
+                            [dhcpd_time_offset_enabled] => 
+                            [ipv6_interface_type] => none
+                            [ipv6_pd_start] => ::2
+                            [ipv6_pd_stop] => ::7d1
+                            [name] => TJJ
+                            [vlan] => 10
+                            [ip_subnet] => 192.168.10.1/24
+                            [dhcpd_start] => 192.168.10.6
+                            [dhcpd_stop] => 192.168.10.254
+                            [enabled] => 1
+                            [is_nat] => 1
+                            [dhcp_relay_enabled] => 
+                            [vlan_enabled] => 1
+                            [site_id] => 5d8121c5db606404849237da
+                            [dpi_enabled] => 
+                            [dpigroup_id] => 
+                            [dhcpd_dns_1] => 192.168.2.220
+                            [domain_name] => 
+                            [mac] => b4:fb:e4:8a:c3:7e
+                            [is_guest] => 
+                            [ip] => 192.168.10.1
+                            [up] => true
+                            [num_sta] => 7
+                            [rx_bytes] => 571996574344
+                            [rx_packets] => 443298823
+                            [tx_bytes] => 45567306946
+                            [tx_packets] => 164216769
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [_id] => 5d8121c5db606404849237e3
+                            [attr_no_delete] => 1
+                            [attr_hidden_id] => LAN
+                            [name] => LAN
+                            [site_id] => 5d8121c5db606404849237da
+                            [vlan_enabled] => 
+                            [purpose] => corporate
+                            [ip_subnet] => 192.168.1.1/22
+                            [ipv6_interface_type] => none
+                            [domain_name] => localdomain
+                            [is_nat] => 1
+                            [dhcpd_enabled] => 1
+                            [dhcpd_start] => 192.168.1.16
+                            [dhcpd_stop] => 192.168.1.254
+                            [dhcpdv6_enabled] => 
+                            [ipv6_ra_enabled] => 
+                            [lte_lan_enabled] => 1
+                            [networkgroup] => LAN
+                            [dpi_enabled] => 
+                            [dpigroup_id] => 
+                            [dhcpd_leasetime] => 86400
+                            [dhcpd_dns_enabled] => 
+                            [dhcpd_gateway_enabled] => 
+                            [dhcpd_time_offset_enabled] => 
+                            [ipv6_pd_start] => ::2
+                            [ipv6_pd_stop] => ::7d1
+                            [enabled] => 1
+                            [dhcp_relay_enabled] => 
+                            [mac] => b4:fb:e4:8a:c3:7e
+                            [is_guest] => 
+                            [ip] => 192.168.1.1
+                            [up] => true
+                            [num_sta] => 4
+                            [rx_bytes] => 5924915738
+                            [rx_packets] => 7380636
+                            [tx_bytes] => 1570335881
+                            [tx_packets] => 4381354
+                        )
+
+                )
+
+            [uplink] => stdClass Object
+                (
+                    [drops] => 5
+                    [enable] => 1
+                    [full_duplex] => 1
+                    [gateways] => Array
+                        (
+                            [0] => 97.88.32.1
+                        )
+
+                    [ip] => 97.88.34.66
+                    [latency] => 18
+                    [mac] => b4:fb:e4:8a:c3:7d
+                    [name] => eth0
+                    [nameservers] => Array
+                        (
+                            [0] => 127.0.0.1
+                        )
+
+                    [netmask] => 255.255.252.0
+                    [num_port] => 1
+                    [rx_bytes] => 872758600393
+                    [rx_dropped] => 4663
+                    [rx_errors] => 0
+                    [rx_multicast] => 22895633
+                    [rx_packets] => 682014211
+                    [speed] => 1000
+                    [speedtest_lastrun] => 1582508122
+                    [speedtest_ping] => 7
+                    [speedtest_status] => Success
+                    [tx_bytes] => 61788239286
+                    [tx_dropped] => 0
+                    [tx_errors] => 0
+                    [tx_packets] => 267198207
+                    [up] => 1
+                    [uptime] => 496060
+                    [xput_down] => 178.367
+                    [xput_up] => 11.396
+                    [tx_bytes-r] => 10472
+                    [rx_bytes-r] => 981828
+                    [bytes-r] => 992301
+                    [max_speed] => 1000
+                    [type] => wire
+                )
+
+            [next_interval] => 35
+            [next_heartbeat_at] => 1582520791
+            [considered_lost_at] => 1582520881
+            [stat] => stdClass Object
+                (
+                    [gw] => stdClass Object
+                        (
+                            [site_id] => 5d8121c5db606404849237da
+                            [o] => gw
+                            [oid] => b4:fb:e4:8a:c3:7d
+                            [gw] => b4:fb:e4:8a:c3:7d
+                            [time] => 1582351500000
+                            [datetime] => 2020-02-22T06:05:00Z
+                            [duration] => 169217000
+                            [wan-rx_packets] => 48022051
+                            [wan-rx_bytes] => 58209919842
+                            [wan-tx_packets] => 20450101
+                            [wan-tx_bytes] => 7726303434
+                            [lan-rx_packets] => 20308465
+                            [lan-rx_bytes] => 7750539332
+                            [lan-tx_packets] => 45606706
+                            [lan-tx_bytes] => 56322640505
+                            [wan-rx_dropped] => 805
+                            [lan-rx_dropped] => 14
+                        )
+
+                )
+
+            [tx_bytes] => 872758600393
+            [rx_bytes] => 61788239286
+            [bytes] => 934546839679
+            [num_sta] => 29
+            [user-num_sta] => 29
+            [guest-num_sta] => 0
+            [num_desktop] => 8
+            [num_mobile] => 2
+            [num_handheld] => 2
+            [x_has_ssh_hostkey] => 
+        )
+
+    [2] => stdClass Object
+        (
+            [_id] => 5d819982db60640476ae5b49
+            [ip] => 192.168.1.23
+            [mac] => b4:fb:e4:f3:7f:69
+            [model] => U7LT
+            [type] => uap
+            [version] => 4.0.80.10875
+            [adopted] => 1
+            [site_id] => 5d8121c5db606404849237da
+            [x_authkey] => 9ab8ecd0610936b8e6cad6c21b38e803
+            [cfgversion] => b0a3de8e8317373a
+            [config_network] => stdClass Object
+                (
+                    [type] => dhcp
+                )
+
+            [x_vwirekey] => 10721aff387eb048d29616259c1a7226
+            [vwire_table] => Array
+                (
+                )
+
+            [dot1x_portctrl_enabled] => 
+            [license_state] => registered
+            [x_fingerprint] => f8:af:3e:8f:6b:19:c9:6f:3c:25:ae:66:e8:8c:9b:82
+            [inform_url] => http://unifi.bluejayit.com:8080/inform
+            [inform_ip] => 52.14.137.40
+            [x_aes_gcm] => 1
+            [required_version] => 3.4.1
+            [board_rev] => 33
+            [antenna_table] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [default] => 1
+                            [id] => 4
+                            [name] => Combined
+                            [wifi0_gain] => 3
+                            [wifi1_gain] => 3
+                        )
+
+                )
+
+            [radio_table] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [name] => wifi0
+                            [channel] => 11
+                            [ht] => 20
+                            [tx_power_mode] => auto
+                            [min_rssi_enabled] => 
+                            [radio] => ng
+                            [tx_power] => 22
+                            [antenna_gain] => 6
+                            [sens_level_enabled] => 
+                            [vwire_enabled] => 1
+                            [wlangroup_id] => 5d8121c5db606404849237e5
+                            [min_txpower] => 4
+                            [max_txpower] => 20
+                            [builtin_antenna] => 1
+                            [builtin_ant_gain] => 3
+                            [current_antenna_gain] => 0
+                            [nss] => 2
+                            [radio_caps] => 16404
+                            [backup_channel] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [name] => wifi1
+                            [tx_power] => 22
+                            [channel] => 149
+                            [radio] => na
+                            [tx_power_mode] => auto
+                            [min_rssi_enabled] => 
+                            [ht] => 80
+                            [antenna_gain] => 6
+                            [hard_noise_floor_enabled] => 
+                            [sens_level_enabled] => 
+                            [vwire_enabled] => 1
+                            [wlangroup_id] => 5d8121c5db606404849237e5
+                            [min_txpower] => 4
+                            [max_txpower] => 20
+                            [builtin_antenna] => 1
+                            [builtin_ant_gain] => 3
+                            [current_antenna_gain] => 0
+                            [nss] => 2
+                            [is_11ac] => 1
+                            [has_dfs] => 1
+                            [has_fccdfs] => 1
+                            [radio_caps] => 50479124
+                            [backup_channel] => 0
+                        )
+
+                )
+
+            [scan_radio_table] => Array
+                (
+                )
+
+            [ethernet_table] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [mac] => b4:fb:e4:f3:7f:69
+                            [num_port] => 1
+                            [name] => eth0
+                        )
+
+                )
+
+            [port_table] => Array
+                (
+                )
+
+            [has_speaker] => 
+            [has_eth1] => 
+            [fw_caps] => 25099327
+            [hw_caps] => 0
+            [wifi_caps] => 573429
+            [sys_error_caps] => 0
+            [has_fan] => 
+            [has_temperature] => 
+            [countrycode_table] => Array
+                (
+                    [0] => 840
+                    [1] => 124
+                    [2] => 630
+                )
+
+            [led_override] => default
+            [led_override_color] => #0000ff
+            [led_override_color_brightness] => 100
+            [outdoor_mode_override] => default
+            [lcm_brightness_override] => 
+            [lcm_idle_timeout_override] => 
+            [name] => AP-01
+            [unsupported] => 
+            [unsupported_reason] => 0
+            [serial] => B4FBE4F37F69
+            [bandsteering_mode] => off
+            [two_phase_adopt] => 
+            [wlangroup_id_na] => 5d8121c5db606404849237e5
+            [wlangroup_id_ng] => 5d8121c5db606404849237e5
+            [wlan_overrides] => Array
+                (
+                )
+
+            [mgmt_network_id] => 5d8121c5db606404849237e3
+            [atf_enabled] => 
+            [syslog_key] => 55ad064cfab58dfe445523c6f4d5a0bb350794e3ef308e3a0a189dec6ce8dfdb
+            [kernel_version] => 4.4.153
+            [architecture] => mips
+            [hash_id] => fbb537d8a7c0dbcf
+            [manufacturer_id] => 2
+            [gateway_mac] => b4:fb:e4:8a:c3:7e
+            [device_id] => 5d819982db60640476ae5b49
+            [state] => 1
+            [start_disconnected_millis] => 1582351524463
+            [x_inform_authkey] => 9ab8ecd0610936b8e6cad6c21b38e803
+            [last_seen] => 1582520726
+            [upgradable] => 
+            [adoptable_when_upgraded] => 
+            [rollupgrade] => 
+            [known_cfgversion] => b0a3de8e8317373a
+            [uptime] => 1814584
+            [_uptime] => 1814584
+            [locating] => 
+            [start_connected_millis] => 1582351528270
+            [connect_request_ip] => 97.88.34.66
+            [connect_request_port] => 49499
+            [sys_stats] => stdClass Object
+                (
+                    [loadavg_1] => 0.08
+                    [loadavg_15] => 0.19
+                    [loadavg_5] => 0.21
+                    [mem_buffer] => 0
+                    [mem_total] => 128622592
+                    [mem_used] => 74715136
+                )
+
+            [system-stats] => stdClass Object
+                (
+                    [cpu] => 21.9
+                    [mem] => 35.9
+                    [uptime] => 1814584
+                )
+
+            [ssh_session_table] => Array
+                (
+                )
+
+            [scanning] => 
+            [spectrum_scanning] => 
+            [guest_token] => 93F50566CE95DDC6F1E8155A3698D2B4
+            [meshv3_peer_mac] => 
+            [satisfaction] => 96
+            [hide_ch_width] => none
+            [isolated] => 
+            [radio_table_stats] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [name] => wifi0
+                            [channel] => 11
+                            [radio] => ng
+                            [ast_txto] => 
+                            [ast_cst] => 
+                            [ast_be_xmit] => 1632
+                            [cu_total] => 50
+                            [cu_self_rx] => 9
+                            [cu_self_tx] => 39
+                            [gain] => 3
+                            [satisfaction] => 96
+                            [state] => RUN
+                            [extchannel] => 0
+                            [tx_power] => 20
+                            [tx_packets] => 25855
+                            [tx_retries] => 2070
+                            [num_sta] => 14
+                            [guest-num_sta] => 0
+                            [user-num_sta] => 14
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [name] => wifi1
+                            [channel] => 149
+                            [radio] => na
+                            [ast_txto] => 
+                            [ast_cst] => 
+                            [ast_be_xmit] => 1631
+                            [cu_total] => 5
+                            [cu_self_rx] => 2
+                            [cu_self_tx] => 2
+                            [gain] => 3
+                            [satisfaction] => 95
+                            [state] => RUN
+                            [extchannel] => 1
+                            [tx_power] => 20
+                            [tx_packets] => 13196
+                            [tx_retries] => 2435
+                            [num_sta] => 14
+                            [guest-num_sta] => 0
+                            [user-num_sta] => 14
+                        )
+
+                )
+
+            [uplink] => stdClass Object
+                (
+                    [full_duplex] => 1
+                    [ip] => 0.0.0.0
+                    [mac] => b4:fb:e4:f3:7f:69
+                    [name] => eth0
+                    [netmask] => 0.0.0.0
+                    [num_port] => 1
+                    [rx_bytes] => 1709938438
+                    [rx_dropped] => 59866
+                    [rx_errors] => 0
+                    [rx_multicast] => 0
+                    [rx_packets] => 356482204
+                    [speed] => 1000
+                    [tx_bytes] => 487632434
+                    [tx_dropped] => 0
+                    [tx_errors] => 0
+                    [tx_packets] => 140028210
+                    [up] => 1
+                    [max_speed] => 1000
+                    [type] => wire
+                    [tx_bytes-r] => 12124
+                    [rx_bytes-r] => 1265724
+                    [uplink_mac] => 18:e8:29:4e:bc:0c
+                    [uplink_remote_port] => 5
+                )
+
+            [vap_table] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [anomalies_bar_chart] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 1
+                                )
+
+                            [anomalies_bar_chart_now] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 1
+                                )
+
+                            [avg_client_signal] => -76
+                            [bssid] => d6:fb:e4:f5:7f:69
+                            [ccq] => 383
+                            [channel] => 149
+                            [dns_avg_latency] => 25
+                            [essid] => TJJ-IoT
+                            [extchannel] => 1
+                            [id] => 5d86df36db60640c36c5b36a
+                            [mac_filter_rejections] => 0
+                            [name] => ath7
+                            [num_satisfaction_sta] => 9
+                            [num_sta] => 9
+                            [radio] => na
+                            [radio_name] => wifi1
+                            [reasons_bar_chart] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 5
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 3
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 0
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 0
+                                    [wifi_retries] => 1
+                                )
+
+                            [reasons_bar_chart_now] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 4
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 4
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 0
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 0
+                                    [wifi_retries] => 0
+                                )
+
+                            [rx_bytes] => 4238948882
+                            [rx_crypts] => 241193
+                            [rx_dropped] => 241193
+                            [rx_errors] => 241193
+                            [rx_frags] => 0
+                            [rx_nwids] => 11548
+                            [rx_packets] => 89965637
+                            [rx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 1311730318
+                                    [lat_avg] => 0
+                                    [lat_max] => 0
+                                    [lat_min] => 4294967295
+                                    [stalls] => 0
+                                )
+
+                            [satisfaction] => 94
+                            [satisfaction_now] => 94
+                            [state] => RUN
+                            [tx_bytes] => 1576402913
+                            [tx_combined_retries] => 12523329
+                            [tx_data_mpdu_bytes] => 6020436960
+                            [tx_dropped] => 0
+                            [tx_errors] => 42356011
+                            [tx_packets] => 93630730
+                            [tx_power] => 20
+                            [tx_retries] => 12523329
+                            [tx_rts_retries] => 0
+                            [tx_success] => 32350959
+                            [tx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 256689346
+                                    [lat_avg] => 0
+                                    [lat_max] => 0
+                                    [lat_min] => 4294967295
+                                    [stalls] => 0
+                                )
+
+                            [tx_total] => 32352125
+                            [up] => 1
+                            [usage] => user
+                            [wifi_tx_attempts] => 44875454
+                            [wifi_tx_dropped] => 1166
+                            [wifi_tx_latency_mov] => stdClass Object
+                                (
+                                    [avg] => 214
+                                    [max] => 4515
+                                    [min] => 98
+                                    [total] => 1104232
+                                    [total_count] => 5151
+                                )
+
+                            [t] => vap
+                            [wlanconf_id] => 5d86df36db60640c36c5b36a
+                            [is_guest] => 
+                            [is_wep] => 
+                            [ap_mac] => b4:fb:e4:f3:7f:69
+                            [map_id] => 
+                            [site_id] => 5d8121c5db606404849237da
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [anomalies_bar_chart] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 0
+                                )
+
+                            [anomalies_bar_chart_now] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 0
+                                )
+
+                            [avg_client_signal] => 0
+                            [bssid] => c6:fb:e4:f5:7f:69
+                            [ccq] => 0
+                            [channel] => 149
+                            [dns_avg_latency] => -1
+                            [essid] => TJJ-Admin
+                            [extchannel] => 1
+                            [id] => 5d846e2ddb60640c36c1aaac
+                            [mac_filter_rejections] => 0
+                            [name] => ath6
+                            [num_satisfaction_sta] => 0
+                            [num_sta] => 0
+                            [radio] => na
+                            [radio_name] => wifi1
+                            [reasons_bar_chart] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 0
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 0
+                                    [wifi_retries] => 0
+                                )
+
+                            [reasons_bar_chart_now] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 0
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 0
+                                    [wifi_retries] => 0
+                                )
+
+                            [rx_bytes] => 0
+                            [rx_crypts] => 0
+                            [rx_dropped] => 0
+                            [rx_errors] => 0
+                            [rx_frags] => 0
+                            [rx_nwids] => 28520
+                            [rx_packets] => 0
+                            [rx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 0
+                                    [lat_avg] => 0
+                                    [lat_max] => 0
+                                    [lat_min] => 4294967295
+                                    [stalls] => 0
+                                )
+
+                            [satisfaction] => -1
+                            [satisfaction_now] => -1
+                            [state] => RUN
+                            [tx_bytes] => 0
+                            [tx_combined_retries] => 0
+                            [tx_data_mpdu_bytes] => 0
+                            [tx_dropped] => 0
+                            [tx_errors] => 0
+                            [tx_packets] => 0
+                            [tx_power] => 20
+                            [tx_retries] => 0
+                            [tx_rts_retries] => 0
+                            [tx_success] => 0
+                            [tx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 0
+                                    [lat_avg] => 0
+                                    [lat_max] => 0
+                                    [lat_min] => 4294967295
+                                    [stalls] => 0
+                                )
+
+                            [tx_total] => 0
+                            [up] => 1
+                            [usage] => user
+                            [wifi_tx_attempts] => 0
+                            [wifi_tx_dropped] => 0
+                            [t] => vap
+                            [wlanconf_id] => 5d846e2ddb60640c36c1aaac
+                            [is_guest] => 
+                            [is_wep] => 
+                            [ap_mac] => b4:fb:e4:f3:7f:69
+                            [map_id] => 
+                            [site_id] => 5d8121c5db606404849237da
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [anomalies_bar_chart] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 0
+                                )
+
+                            [anomalies_bar_chart_now] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 0
+                                )
+
+                            [avg_client_signal] => 0
+                            [bssid] => b6:fb:e4:f5:7f:69
+                            [ccq] => 0
+                            [channel] => 149
+                            [dns_avg_latency] => -1
+                            [essid] => TJJ-Guest
+                            [extchannel] => 1
+                            [id] => 5d813113db60640a318428a1
+                            [mac_filter_rejections] => 0
+                            [name] => ath5
+                            [num_satisfaction_sta] => 0
+                            [num_sta] => 0
+                            [radio] => na
+                            [radio_name] => wifi1
+                            [reasons_bar_chart] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 0
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 0
+                                    [wifi_retries] => 0
+                                )
+
+                            [reasons_bar_chart_now] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 0
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 0
+                                    [wifi_retries] => 0
+                                )
+
+                            [rx_bytes] => 50661964
+                            [rx_crypts] => 0
+                            [rx_dropped] => 0
+                            [rx_errors] => 0
+                            [rx_frags] => 0
+                            [rx_nwids] => 13183
+                            [rx_packets] => 437075
+                            [rx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 0
+                                    [lat_avg] => 0
+                                    [lat_max] => 0
+                                    [lat_min] => 4294967295
+                                    [stalls] => 0
+                                )
+
+                            [satisfaction] => -1
+                            [satisfaction_now] => -1
+                            [state] => RUN
+                            [tx_bytes] => 679778369
+                            [tx_combined_retries] => 0
+                            [tx_data_mpdu_bytes] => 0
+                            [tx_dropped] => 0
+                            [tx_errors] => 2426
+                            [tx_packets] => 527865
+                            [tx_power] => 20
+                            [tx_retries] => 0
+                            [tx_rts_retries] => 0
+                            [tx_success] => 0
+                            [tx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 0
+                                    [lat_avg] => 0
+                                    [lat_max] => 0
+                                    [lat_min] => 4294967295
+                                    [stalls] => 0
+                                )
+
+                            [tx_total] => 0
+                            [up] => 1
+                            [usage] => guest
+                            [wifi_tx_attempts] => 0
+                            [wifi_tx_dropped] => 0
+                            [t] => vap
+                            [wlanconf_id] => 5d813113db60640a318428a1
+                            [is_guest] => 1
+                            [is_wep] => 
+                            [ap_mac] => b4:fb:e4:f3:7f:69
+                            [map_id] => 
+                            [site_id] => 5d8121c5db606404849237da
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [anomalies_bar_chart] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 0
+                                )
+
+                            [anomalies_bar_chart_now] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 0
+                                )
+
+                            [avg_client_signal] => -68
+                            [bssid] => b4:fb:e4:f5:7f:69
+                            [ccq] => 333
+                            [channel] => 149
+                            [dns_avg_latency] => 42
+                            [essid] => TJJ
+                            [extchannel] => 1
+                            [id] => 5d813108db60640a318428a0
+                            [mac_filter_rejections] => 0
+                            [name] => ath4
+                            [num_satisfaction_sta] => 5
+                            [num_sta] => 5
+                            [radio] => na
+                            [radio_name] => wifi1
+                            [reasons_bar_chart] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 1
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 3
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 0
+                                    [tcp_packet_loss] => 1
+                                    [wifi_latency] => 0
+                                    [wifi_retries] => 0
+                                )
+
+                            [reasons_bar_chart_now] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 5
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 0
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 0
+                                    [wifi_retries] => 0
+                                )
+
+                            [rx_bytes] => 3302756864
+                            [rx_crypts] => 62263
+                            [rx_dropped] => 62263
+                            [rx_errors] => 62263
+                            [rx_frags] => 0
+                            [rx_nwids] => 7618
+                            [rx_packets] => 27364227
+                            [rx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 794644643
+                                    [lat_avg] => 0
+                                    [lat_max] => 0
+                                    [lat_min] => 4294967295
+                                    [stalls] => 0
+                                )
+
+                            [satisfaction] => 98
+                            [satisfaction_now] => 98
+                            [state] => RUN
+                            [tx_bytes] => 1490622018
+                            [tx_combined_retries] => 107306
+                            [tx_data_mpdu_bytes] => 3196797246
+                            [tx_dropped] => 0
+                            [tx_errors] => 545998
+                            [tx_packets] => 57492137
+                            [tx_power] => 20
+                            [tx_retries] => 107306
+                            [tx_rts_retries] => 0
+                            [tx_success] => 1981415
+                            [tx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 64472890
+                                    [lat_avg] => 0
+                                    [lat_max] => 0
+                                    [lat_min] => 4294967295
+                                    [stalls] => 0
+                                )
+
+                            [tx_total] => 1981415
+                            [up] => 1
+                            [usage] => user
+                            [wifi_tx_attempts] => 2088721
+                            [wifi_tx_dropped] => 0
+                            [wifi_tx_latency_mov] => stdClass Object
+                                (
+                                    [avg] => 900
+                                    [max] => 3622
+                                    [min] => 95
+                                    [total] => 3466888
+                                    [total_count] => 3849
+                                )
+
+                            [t] => vap
+                            [wlanconf_id] => 5d813108db60640a318428a0
+                            [is_guest] => 
+                            [is_wep] => 
+                            [ap_mac] => b4:fb:e4:f3:7f:69
+                            [map_id] => 
+                            [site_id] => 5d8121c5db606404849237da
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [anomalies_bar_chart] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 0
+                                )
+
+                            [anomalies_bar_chart_now] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 0
+                                )
+
+                            [avg_client_signal] => -76
+                            [bssid] => d6:fb:e4:f4:7f:69
+                            [ccq] => 984
+                            [channel] => 11
+                            [dns_avg_latency] => 33
+                            [essid] => TJJ-IoT_2G
+                            [id] => 5d86df36db60640c36c5b36a
+                            [mac_filter_rejections] => 0
+                            [name] => ath3
+                            [num_satisfaction_sta] => 10
+                            [num_sta] => 10
+                            [radio] => ng
+                            [radio_name] => wifi0
+                            [reasons_bar_chart] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 2
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 1
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 6
+                                    [wifi_retries] => 0
+                                )
+
+                            [reasons_bar_chart_now] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 3
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 1
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 3
+                                    [wifi_retries] => 0
+                                )
+
+                            [rx_bytes] => 989850345
+                            [rx_crypts] => 14
+                            [rx_dropped] => 31
+                            [rx_errors] => 31
+                            [rx_frags] => 0
+                            [rx_nwids] => 193706
+                            [rx_packets] => 5106373
+                            [rx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 5855018
+                                    [lat_avg] => 9
+                                    [lat_max] => 90
+                                    [lat_min] => 90
+                                    [stalls] => 0
+                                )
+
+                            [satisfaction] => 96
+                            [satisfaction_now] => 96
+                            [state] => RUN
+                            [tx_bytes] => 2064709877
+                            [tx_combined_retries] => 162663
+                            [tx_data_mpdu_bytes] => 35537047
+                            [tx_dropped] => 0
+                            [tx_errors] => 0
+                            [tx_packets] => 5581921
+                            [tx_power] => 20
+                            [tx_retries] => 160788
+                            [tx_rts_retries] => 1875
+                            [tx_success] => 280464
+                            [tx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 10693029
+                                    [lat_avg] => 29
+                                    [lat_max] => 290
+                                    [lat_min] => 290
+                                    [stalls] => 0
+                                )
+
+                            [tx_total] => 280767
+                            [up] => 1
+                            [usage] => user
+                            [wifi_tx_attempts] => 441252
+                            [wifi_tx_dropped] => 303
+                            [wifi_tx_latency_mov] => stdClass Object
+                                (
+                                    [avg] => 881
+                                    [max] => 6201
+                                    [min] => 1
+                                    [total] => 19396
+                                    [total_count] => 22
+                                )
+
+                            [t] => vap
+                            [wlanconf_id] => 5d86df36db60640c36c5b36a
+                            [is_guest] => 
+                            [is_wep] => 
+                            [ap_mac] => b4:fb:e4:f3:7f:69
+                            [map_id] => 
+                            [site_id] => 5d8121c5db606404849237da
+                        )
+
+                    [5] => stdClass Object
+                        (
+                            [anomalies_bar_chart] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 0
+                                )
+
+                            [anomalies_bar_chart_now] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 0
+                                )
+
+                            [avg_client_signal] => 0
+                            [bssid] => c6:fb:e4:f4:7f:69
+                            [ccq] => 0
+                            [channel] => 11
+                            [dns_avg_latency] => -1
+                            [essid] => TJJ-Admin
+                            [id] => 5d846e2ddb60640c36c1aaac
+                            [mac_filter_rejections] => 0
+                            [name] => ath2
+                            [num_satisfaction_sta] => 0
+                            [num_sta] => 0
+                            [radio] => ng
+                            [radio_name] => wifi0
+                            [reasons_bar_chart] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 0
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 0
+                                    [wifi_retries] => 0
+                                )
+
+                            [reasons_bar_chart_now] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 0
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 0
+                                    [wifi_retries] => 0
+                                )
+
+                            [rx_bytes] => 0
+                            [rx_crypts] => 0
+                            [rx_dropped] => 3
+                            [rx_errors] => 3
+                            [rx_frags] => 0
+                            [rx_nwids] => 523248
+                            [rx_packets] => 0
+                            [rx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 0
+                                    [lat_avg] => 0
+                                    [lat_max] => 0
+                                    [lat_min] => 4294967295
+                                    [stalls] => 0
+                                )
+
+                            [satisfaction] => -1
+                            [satisfaction_now] => -1
+                            [state] => RUN
+                            [tx_bytes] => 45
+                            [tx_combined_retries] => 0
+                            [tx_data_mpdu_bytes] => 0
+                            [tx_dropped] => 1
+                            [tx_errors] => 0
+                            [tx_packets] => 1
+                            [tx_power] => 20
+                            [tx_retries] => 0
+                            [tx_rts_retries] => 0
+                            [tx_success] => 0
+                            [tx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 0
+                                    [lat_avg] => 0
+                                    [lat_max] => 0
+                                    [lat_min] => 4294967295
+                                    [stalls] => 0
+                                )
+
+                            [tx_total] => 0
+                            [up] => 1
+                            [usage] => user
+                            [wifi_tx_attempts] => 0
+                            [wifi_tx_dropped] => 0
+                            [t] => vap
+                            [wlanconf_id] => 5d846e2ddb60640c36c1aaac
+                            [is_guest] => 
+                            [is_wep] => 
+                            [ap_mac] => b4:fb:e4:f3:7f:69
+                            [map_id] => 
+                            [site_id] => 5d8121c5db606404849237da
+                        )
+
+                    [6] => stdClass Object
+                        (
+                            [anomalies_bar_chart] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 0
+                                )
+
+                            [anomalies_bar_chart_now] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 0
+                                )
+
+                            [avg_client_signal] => 0
+                            [bssid] => b6:fb:e4:f4:7f:69
+                            [ccq] => 0
+                            [channel] => 11
+                            [dns_avg_latency] => -1
+                            [essid] => TJJ-Guest
+                            [id] => 5d813113db60640a318428a1
+                            [mac_filter_rejections] => 0
+                            [name] => ath1
+                            [num_satisfaction_sta] => 0
+                            [num_sta] => 0
+                            [radio] => ng
+                            [radio_name] => wifi0
+                            [reasons_bar_chart] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 0
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 0
+                                    [wifi_retries] => 0
+                                )
+
+                            [reasons_bar_chart_now] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 0
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 0
+                                    [wifi_retries] => 0
+                                )
+
+                            [rx_bytes] => 1850584
+                            [rx_crypts] => 0
+                            [rx_dropped] => 3
+                            [rx_errors] => 3
+                            [rx_frags] => 0
+                            [rx_nwids] => 196431
+                            [rx_packets] => 12734
+                            [rx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 0
+                                    [lat_avg] => 0
+                                    [lat_max] => 0
+                                    [lat_min] => 4294967295
+                                    [stalls] => 0
+                                )
+
+                            [satisfaction] => -1
+                            [satisfaction_now] => -1
+                            [state] => RUN
+                            [tx_bytes] => 34387334
+                            [tx_combined_retries] => 0
+                            [tx_data_mpdu_bytes] => 0
+                            [tx_dropped] => 0
+                            [tx_errors] => 0
+                            [tx_packets] => 27622
+                            [tx_power] => 20
+                            [tx_retries] => 0
+                            [tx_rts_retries] => 0
+                            [tx_success] => 0
+                            [tx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 0
+                                    [lat_avg] => 0
+                                    [lat_max] => 0
+                                    [lat_min] => 4294967295
+                                    [stalls] => 0
+                                )
+
+                            [tx_total] => 0
+                            [up] => 1
+                            [usage] => guest
+                            [wifi_tx_attempts] => 0
+                            [wifi_tx_dropped] => 0
+                            [t] => vap
+                            [wlanconf_id] => 5d813113db60640a318428a1
+                            [is_guest] => 1
+                            [is_wep] => 
+                            [ap_mac] => b4:fb:e4:f3:7f:69
+                            [map_id] => 
+                            [site_id] => 5d8121c5db606404849237da
+                        )
+
+                    [7] => stdClass Object
+                        (
+                            [anomalies_bar_chart] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 0
+                                )
+
+                            [anomalies_bar_chart_now] => stdClass Object
+                                (
+                                    [high_dns_latency] => 0
+                                    [high_tcp_latency] => 0
+                                    [high_tcp_packet_loss] => 0
+                                    [high_wifi_latency] => 0
+                                    [high_wifi_retries] => 0
+                                    [low_phy_rate] => 0
+                                    [poor_stream_eff] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [weak_signal] => 0
+                                )
+
+                            [avg_client_signal] => -71
+                            [bssid] => b4:fb:e4:f4:7f:69
+                            [ccq] => 967
+                            [channel] => 11
+                            [dns_avg_latency] => 20
+                            [essid] => TJJ
+                            [id] => 5d813108db60640a318428a0
+                            [mac_filter_rejections] => 40
+                            [name] => ath0
+                            [num_satisfaction_sta] => 4
+                            [num_sta] => 4
+                            [radio] => ng
+                            [radio_name] => wifi0
+                            [reasons_bar_chart] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 1
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 0
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 2
+                                    [wifi_retries] => 0
+                                )
+
+                            [reasons_bar_chart_now] => stdClass Object
+                                (
+                                    [phy_rate] => 0
+                                    [signal] => 0
+                                    [sleepy_client] => 0
+                                    [sta_arp_timeout] => 0
+                                    [sta_dns_latency] => 1
+                                    [sta_dns_timeout] => 0
+                                    [sta_ip_timeout] => 0
+                                    [stream_eff] => 0
+                                    [tcp_latency] => 0
+                                    [tcp_packet_loss] => 0
+                                    [wifi_latency] => 2
+                                    [wifi_retries] => 0
+                                )
+
+                            [rx_bytes] => 2625121155
+                            [rx_crypts] => 22776
+                            [rx_dropped] => 22941
+                            [rx_errors] => 22941
+                            [rx_frags] => 0
+                            [rx_nwids] => 192176
+                            [rx_packets] => 72299660
+                            [rx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 9566019806
+                                    [lat_avg] => 5
+                                    [lat_max] => 10
+                                    [lat_min] => 10
+                                    [stalls] => 0
+                                )
+
+                            [satisfaction] => 98
+                            [satisfaction_now] => 98
+                            [state] => RUN
+                            [tx_bytes] => 1423606649
+                            [tx_combined_retries] => 1089666
+                            [tx_data_mpdu_bytes] => 17417081190
+                            [tx_dropped] => 0
+                            [tx_errors] => 0
+                            [tx_packets] => 212247563
+                            [tx_power] => 20
+                            [tx_retries] => 1088487
+                            [tx_rts_retries] => 1179
+                            [tx_success] => 11362877
+                            [tx_tcp_stats] => stdClass Object
+                                (
+                                    [goodbytes] => 25286365
+                                    [lat_avg] => 4
+                                    [lat_max] => 30
+                                    [lat_min] => 10
+                                    [stalls] => 0
+                                )
+
+                            [tx_total] => 11363722
+                            [up] => 1
+                            [usage] => user
+                            [wifi_tx_attempts] => 12451364
+                            [wifi_tx_dropped] => 2
+                            [wifi_tx_latency_mov] => stdClass Object
+                                (
+                                    [avg] => 2055
+                                    [max] => 15880
+                                    [min] => 0
+                                    [total] => 7888706
+                                    [total_count] => 3837
+                                )
+
+                            [t] => vap
+                            [wlanconf_id] => 5d813108db60640a318428a0
+                            [is_guest] => 
+                            [is_wep] => 
+                            [ap_mac] => b4:fb:e4:f3:7f:69
+                            [map_id] => 
+                            [site_id] => 5d8121c5db606404849237da
+                        )
+
+                )
+
+            [downlink_table] => Array
+                (
+                )
+
+            [vwire_vap_table] => Array
+                (
+                )
+
+            [bytes-d] => 55087621
+            [tx_bytes-d] => 54250719
+            [rx_bytes-d] => 836902
+            [bytes-r] => 1311610
+            [last_uplink] => stdClass Object
+                (
+                    [uplink_mac] => 18:e8:29:4e:bc:0c
+                    [uplink_remote_port] => 5
+                )
+
+            [last_scan] => 1582448500
+            [next_interval] => 37
+            [next_heartbeat_at] => 1582520773
+            [considered_lost_at] => 1582520867
+            [stat] => stdClass Object
+                (
+                    [ap] => stdClass Object
+                        (
+                            [site_id] => 5d8121c5db606404849237da
+                            [o] => ap
+                            [oid] => b4:fb:e4:f3:7f:69
+                            [ap] => b4:fb:e4:f3:7f:69
+                            [time] => 1582351500000
+                            [datetime] => 2020-02-22T06:05:00Z
+                            [guest-wifi0-rx_packets] => 0
+                            [guest-wifi1-rx_packets] => 0
+                            [user-wifi1-rx_packets] => 15565738
+                            [user-wifi0-rx_packets] => 13682073
+                            [user-rx_packets] => 29247811
+                            [guest-rx_packets] => 0
+                            [wifi0-rx_packets] => 13682073
+                            [wifi1-rx_packets] => 15565738
+                            [rx_packets] => 29247811
+                            [guest-wifi0-rx_bytes] => 0
+                            [guest-wifi1-rx_bytes] => 0
+                            [user-wifi1-rx_bytes] => 3380590594
+                            [user-wifi0-rx_bytes] => 5084947876
+                            [user-rx_bytes] => 8465538470
+                            [guest-rx_bytes] => 0
+                            [wifi0-rx_bytes] => 5084947876
+                            [wifi1-rx_bytes] => 3380590594
+                            [rx_bytes] => 8465538470
+                            [guest-wifi0-rx_errors] => 0
+                            [guest-wifi1-rx_errors] => 0
+                            [user-wifi1-rx_errors] => 30740
+                            [user-wifi0-rx_errors] => 3091
+                            [user-rx_errors] => 33831
+                            [guest-rx_errors] => 0
+                            [wifi0-rx_errors] => 3091
+                            [wifi1-rx_errors] => 30740
+                            [rx_errors] => 33831
+                            [guest-wifi0-rx_dropped] => 0
+                            [guest-wifi1-rx_dropped] => 0
+                            [user-wifi1-rx_dropped] => 30740
+                            [user-wifi0-rx_dropped] => 3091
+                            [user-rx_dropped] => 33831
+                            [guest-rx_dropped] => 0
+                            [wifi0-rx_dropped] => 3091
+                            [wifi1-rx_dropped] => 30740
+                            [rx_dropped] => 33831
+                            [guest-wifi0-rx_crypts] => 0
+                            [guest-wifi1-rx_crypts] => 0
+                            [user-wifi1-rx_crypts] => 30740
+                            [user-wifi0-rx_crypts] => 3072
+                            [user-rx_crypts] => 33812
+                            [guest-rx_crypts] => 0
+                            [wifi0-rx_crypts] => 3072
+                            [wifi1-rx_crypts] => 30740
+                            [rx_crypts] => 33812
+                            [guest-wifi0-rx_frags] => 0
+                            [guest-wifi1-rx_frags] => 0
+                            [user-wifi1-rx_frags] => 0
+                            [user-wifi0-rx_frags] => 0
+                            [user-rx_frags] => 0
+                            [guest-rx_frags] => 0
+                            [wifi0-rx_frags] => 0
+                            [wifi1-rx_frags] => 0
+                            [rx_frags] => 0
+                            [guest-wifi0-tx_packets] => 0
+                            [guest-wifi1-tx_packets] => 0
+                            [user-wifi1-tx_packets] => 23361910
+                            [user-wifi0-tx_packets] => 31499300
+                            [user-tx_packets] => 54861210
+                            [guest-tx_packets] => 0
+                            [wifi0-tx_packets] => 31499300
+                            [wifi1-tx_packets] => 23361910
+                            [tx_packets] => 54861210
+                            [guest-wifi0-tx_bytes] => 0
+                            [guest-wifi1-tx_bytes] => 0
+                            [user-wifi1-tx_bytes] => 18183336287
+                            [user-wifi0-tx_bytes] => 38662903531
+                            [user-tx_bytes] => 56846239818
+                            [guest-tx_bytes] => 0
+                            [wifi0-tx_bytes] => 38662903531
+                            [wifi1-tx_bytes] => 18183336287
+                            [tx_bytes] => 56846239818
+                            [guest-wifi0-tx_errors] => 0
+                            [guest-wifi1-tx_errors] => 0
+                            [user-wifi1-tx_errors] => 2616016
+                            [user-wifi0-tx_errors] => 0
+                            [user-tx_errors] => 2616016
+                            [guest-tx_errors] => 0
+                            [wifi0-tx_errors] => 0
+                            [wifi1-tx_errors] => 2616016
+                            [tx_errors] => 2616016
+                            [guest-wifi0-tx_dropped] => 0
+                            [guest-wifi1-tx_dropped] => 0
+                            [user-wifi1-tx_dropped] => 0
+                            [user-wifi0-tx_dropped] => 0
+                            [user-tx_dropped] => 0
+                            [guest-tx_dropped] => 0
+                            [wifi0-tx_dropped] => 0
+                            [wifi1-tx_dropped] => 0
+                            [tx_dropped] => 0
+                            [guest-wifi0-tx_retries] => 0
+                            [guest-wifi1-tx_retries] => 0
+                            [user-wifi1-tx_retries] => 5599704
+                            [user-wifi0-tx_retries] => 6433701
+                            [user-tx_retries] => 12033405
+                            [guest-tx_retries] => 0
+                            [wifi0-tx_retries] => 6433701
+                            [wifi1-tx_retries] => 5599704
+                            [tx_retries] => 12033405
+                            [guest-wifi0-mac_filter_rejections] => 0
+                            [guest-wifi1-mac_filter_rejections] => 0
+                            [user-wifi1-mac_filter_rejections] => 0
+                            [user-wifi0-mac_filter_rejections] => 40
+                            [user-mac_filter_rejections] => 40
+                            [guest-mac_filter_rejections] => 0
+                            [wifi0-mac_filter_rejections] => 40
+                            [wifi1-mac_filter_rejections] => 0
+                            [mac_filter_rejections] => 40
+                            [guest-wifi0-wifi_tx_attempts] => 0
+                            [guest-wifi1-wifi_tx_attempts] => 0
+                            [user-wifi1-wifi_tx_attempts] => 25200983
+                            [user-wifi0-wifi_tx_attempts] => 36622340
+                            [user-wifi_tx_attempts] => 61823323
+                            [guest-wifi_tx_attempts] => 0
+                            [wifi0-wifi_tx_attempts] => 36622340
+                            [wifi1-wifi_tx_attempts] => 25200983
+                            [wifi_tx_attempts] => 61823323
+                            [guest-wifi0-wifi_tx_dropped] => 0
+                            [guest-wifi1-wifi_tx_dropped] => 0
+                            [user-wifi1-wifi_tx_dropped] => 1210
+                            [user-wifi0-wifi_tx_dropped] => 1073
+                            [user-wifi_tx_dropped] => 2283
+                            [guest-wifi_tx_dropped] => 0
+                            [wifi0-wifi_tx_dropped] => 1073
+                            [wifi1-wifi_tx_dropped] => 1210
+                            [wifi_tx_dropped] => 2283
+                            [bytes] => 65311778288
+                            [duration] => 169193000
+                            [user-wifi1-ath7-5d86df36db60640c36c5b36a-rx_packets] => 10083589
+                            [user-wifi1-ath7-5d86df36db60640c36c5b36a-rx_bytes] => 780222931
+                            [user-wifi1-ath7-5d86df36db60640c36c5b36a-rx_errors] => 17093
+                            [user-wifi1-ath7-5d86df36db60640c36c5b36a-rx_dropped] => 17093
+                            [user-wifi1-ath7-5d86df36db60640c36c5b36a-rx_crypts] => 17093
+                            [user-wifi1-ath7-5d86df36db60640c36c5b36a-tx_packets] => 11038660
+                            [user-wifi1-ath7-5d86df36db60640c36c5b36a-tx_bytes] => 2992717174
+                            [user-wifi1-ath7-5d86df36db60640c36c5b36a-tx_errors] => 2567325
+                            [user-wifi1-ath7-5d86df36db60640c36c5b36a-tx_retries] => 4610925
+                            [user-wifi1-ath7-5d86df36db60640c36c5b36a-wifi_tx_attempts] => 15639280
+                            [user-wifi1-ath4-5d813108db60640a318428a0-rx_packets] => 5482149
+                            [user-wifi1-ath4-5d813108db60640a318428a0-rx_bytes] => 2600367663
+                            [user-wifi1-ath4-5d813108db60640a318428a0-tx_packets] => 12323250
+                            [user-wifi1-ath4-5d813108db60640a318428a0-tx_bytes] => 15190619113
+                            [user-wifi1-ath4-5d813108db60640a318428a0-tx_errors] => 48691
+                            [user-wifi1-ath4-5d813108db60640a318428a0-tx_retries] => 988779
+                            [user-wifi1-ath4-5d813108db60640a318428a0-wifi_tx_attempts] => 9561703
+                            [user-wifi0-ath3-5d86df36db60640c36c5b36a-rx_packets] => 630207
+                            [user-wifi0-ath3-5d86df36db60640c36c5b36a-rx_bytes] => 121814022
+                            [user-wifi0-ath3-5d86df36db60640c36c5b36a-tx_packets] => 618030
+                            [user-wifi0-ath3-5d86df36db60640c36c5b36a-tx_bytes] => 125755454
+                            [user-wifi0-ath3-5d86df36db60640c36c5b36a-tx_retries] => 37443
+                            [user-wifi0-ath3-5d86df36db60640c36c5b36a-wifi_tx_attempts] => 112135
+                            [user-wifi0-ath0-5d813108db60640a318428a0-rx_packets] => 13051866
+                            [user-wifi0-ath0-5d813108db60640a318428a0-rx_bytes] => 4963133854
+                            [user-wifi0-ath0-5d813108db60640a318428a0-tx_packets] => 30881270
+                            [user-wifi0-ath0-5d813108db60640a318428a0-tx_bytes] => 38537148077
+                            [user-wifi0-ath0-5d813108db60640a318428a0-tx_retries] => 6396258
+                            [user-wifi0-ath0-5d813108db60640a318428a0-wifi_tx_attempts] => 36510205
+                            [user-wifi1-ath4-5d813108db60640a318428a0-rx_errors] => 13647
+                            [user-wifi1-ath4-5d813108db60640a318428a0-rx_dropped] => 13647
+                            [user-wifi1-ath4-5d813108db60640a318428a0-rx_crypts] => 13647
+                            [user-wifi0-ath3-5d86df36db60640c36c5b36a-wifi_tx_dropped] => 104
+                            [user-wifi1-ath7-5d86df36db60640c36c5b36a-wifi_tx_dropped] => 1120
+                            [user-wifi0-ath0-5d813108db60640a318428a0-rx_errors] => 3087
+                            [user-wifi0-ath0-5d813108db60640a318428a0-rx_dropped] => 3087
+                            [user-wifi0-ath0-5d813108db60640a318428a0-rx_crypts] => 3071
+                            [user-wifi1-ath4-5d813108db60640a318428a0-wifi_tx_dropped] => 90
+                            [user-wifi0-ath0-5d813108db60640a318428a0-wifi_tx_dropped] => 969
+                            [user-wifi0-ath3-5d86df36db60640c36c5b36a-rx_errors] => 4
+                            [user-wifi0-ath3-5d86df36db60640c36c5b36a-rx_dropped] => 4
+                            [user-wifi0-ath3-5d86df36db60640c36c5b36a-rx_crypts] => 1
+                            [user-wifi0-ath0-5d813108db60640a318428a0-mac_filter_rejections] => 40
+                        )
+
+                )
+
+            [tx_bytes] => 56846239818
+            [rx_bytes] => 8465538470
+            [bytes] => 65311778288
+            [vwireEnabled] => 
+            [uplink_table] => Array
+                (
+                )
+
+            [num_sta] => 28
+            [user-num_sta] => 28
+            [user-wlan-num_sta] => 28
+            [guest-num_sta] => 0
+            [guest-wlan-num_sta] => 0
+            [x_has_ssh_hostkey] => 
+        )
+
+)
