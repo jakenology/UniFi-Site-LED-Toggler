@@ -5,7 +5,7 @@ define('controller_version', '5.12.35');
 
 // Unifi Controller Authentication
 define('controller_user', 'ubnt');
-define('controller_password', 'Gain3*Many**');
+define('controller_password', NULL);
 
 // Your preferred site
 define('site_id', 'nzo9i2k5');
